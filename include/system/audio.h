@@ -257,6 +257,25 @@ typedef enum {
     AUDIO_FORMAT_OPUS                = 0x08000000UL,
     AUDIO_FORMAT_AC3                 = 0x09000000UL,
     AUDIO_FORMAT_E_AC3               = 0x0A000000UL,
+//#ifdef QCOM_HARDWARE
+    AUDIO_FORMAT_EVRC                = 0x10000000UL,
+    AUDIO_FORMAT_QCELP               = 0x11000000UL,
+    AUDIO_FORMAT_DTS                 = 0x12000000UL,
+    AUDIO_FORMAT_WMA                 = 0x13000000UL,
+    AUDIO_FORMAT_WMA_PRO             = 0x14000000UL,
+    AUDIO_FORMAT_AAC_ADIF            = 0x15000000UL,
+    AUDIO_FORMAT_EVRCB               = 0x16000000UL,
+    AUDIO_FORMAT_EVRCWB              = 0x17000000UL,
+    AUDIO_FORMAT_DTS_LBR             = 0x18000000UL,
+    AUDIO_FORMAT_AMR_WB_PLUS         = 0x19000000UL,
+    AUDIO_FORMAT_MP2                 = 0x1A000000UL,
+    AUDIO_FORMAT_EVRCNW              = 0x1B000000UL,
+//#endif
+    AUDIO_FORMAT_PCM_OFFLOAD         = 0x1C000000UL,
+    AUDIO_FORMAT_FLAC                = 0x1D000000UL,
+//#ifdef QCOM_HARDWARE
+    AUDIO_FORMAT_E_AC3_JOC           = 0x1E000000UL,
+//#endif
     AUDIO_FORMAT_MAIN_MASK           = 0xFF000000UL,
     AUDIO_FORMAT_SUB_MASK            = 0x00FFFFFFUL,
 
